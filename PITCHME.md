@@ -124,7 +124,7 @@ flutter packages pub run build_runner watch
 ### Zapytania REST oraz (de)serializacja danych
 
 +++
-## Wygodny stack do obsługi zapytań sieciowych: Jaguar Retrofit
+#### Wygodny stack do obsługi zapytań sieciowych: Jaguar Retrofit
 W jego skład wchodzi:
 - Jaguar serializer - narzedzie build runnera do generowania serializatorów (nie współdziała z build_value) |
 - Jaguar resty - biblioteka znacznie upraszczająca komunikacji http, dodaje obsługę interceptorów oraz autoryzacji |
