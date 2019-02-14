@@ -196,3 +196,12 @@ class UsersApi extends ApiClient with _$UsersApiClient {
   Future<List<UserResponse>> users();
 }
 ```
+
+---
+### Questions?
+
+<br>
+
+@fa[twitter gp-contact](@wojciech_warwas)
+
+@fa[github gp-contact](@obiwanzenobi)
