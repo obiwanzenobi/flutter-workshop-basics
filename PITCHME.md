@@ -196,7 +196,20 @@ class UsersApi extends ApiClient with _$UsersApiClient {
   Future<List<UserResponse>> users();
 }
 ```
++++
+### Live template dla J retrofita
+```
+import 'package:jaguar_retrofit/jaguar_retrofit.dart';
 
+part '$FILE_NAME$.jretro.dart';
+
+@GenApiClient(path: "$PATH$")
+class $CLASS_NAME$ extends ApiClient with _$$$CLASS_NAME$Client {
+  final Route base;
+
+  $CLASS_NAME$(this.base);
+}
+```
 ---
 ### Questions?
 
